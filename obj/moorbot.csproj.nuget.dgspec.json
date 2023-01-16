@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/runner/CatGameTelegram/moorbot.csproj": {}
+  },
+  "projects": {
+    "/home/runner/CatGameTelegram/moorbot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/runner/CatGameTelegram/moorbot.csproj",
+        "projectName": "moorbot",
+        "projectPath": "/home/runner/CatGameTelegram/moorbot.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/CatGameTelegram/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/runner/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "netcoreapp6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "netcoreapp6.0",
+          "dependencies": {
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Telegram.Bot.Extensions.Polling": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/nix/store/jsm5am5i2b2izvwzbw5h6lk3plvpkrlw-dotnet-sdk-6.0.100/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
