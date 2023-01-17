@@ -115,7 +115,7 @@ namespace moorbot
                     Console.WriteLine("Ìÿó requested");
                     foreach (var client in ((CatClientDatabase)Program.moorbot.m_handler.t_database).database.Values)
                     {
-                        string message = CatMessageHandler.ansvers[random.Next(0, CatMessageHandler.ansvers.Count)];
+                        string message = CatMessageHandler.ansvers[new Random().Next(0, CatMessageHandler.ansvers.Count)];
                         Program.moorbot.m_handler.t_bot.SendTextMessageAsync(new ChatId(client.ChatId), message);
 
                     }

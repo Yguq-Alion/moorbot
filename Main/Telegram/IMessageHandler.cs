@@ -17,7 +17,7 @@ namespace moorbot
 
         public TelegramBotClient t_bot { get; set; }
 
-        public ClientDatabase t_database { get; set; }
+        public CatClientDatabase t_database { get; set; }
 
 
     }

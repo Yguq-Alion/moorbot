@@ -37,3 +37,8 @@ C:/Users/Viktor/source/repos/moorbot/moorbot/obj/Debug/netcoreapp3.1/moorbot.csp
 /home/runner/CatGameTelegram/moorbot/obj/Debug/netcoreapp3.1/moorbot.dll
 /home/runner/CatGameTelegram/moorbot/obj/Debug/netcoreapp3.1/moorbot.pdb
 /home/runner/CatGameTelegram/moorbot/obj/Debug/netcoreapp3.1/moorbot.genruntimeconfig.cache
+C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.csprojAssemblyReference.cache
+C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.Main.Storage.Photos.resources
+C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.csproj.GenerateResource.cache
+C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.dll
+C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.pdb

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace moorbot
 {
-    class CatClientDatabase : ClientDatabase
+    class CatClientDatabase 
     {
         public Dictionary<long, CatClientData> database { get;set; }
         public CatClientDatabase()
