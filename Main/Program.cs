@@ -6,6 +6,7 @@ using Telegram.Bot.Types;
 using Telegram.Bot.Exceptions;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Resources;
 
 using System.Text;
 using System.Net;
