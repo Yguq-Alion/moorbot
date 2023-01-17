@@ -38,3 +38,5 @@ C:\Users\Viktor\source\repos\moorbot\moorbot\bin\Debug\netcoreapp3.1\Telegram.Bo
 C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.AssemblyInfoInputs.cache
 C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.AssemblyInfo.cs
 C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.csproj.CopyComplete
+C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.csproj.ResolveComReference.cache
+C:\Users\Viktor\source\repos\moorbot\moorbot\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll

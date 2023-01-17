@@ -9,6 +9,7 @@ namespace moorbot
         public static int maxLevel = 42;
        public static byte[] GetPhotoFromLevel(int lvl)
         {
+            Console.WriteLine();
            var result = (byte[])moorbot.Main.Storage.Photos.ResourceManager.GetObject($"_result__{lvl-1}");
             return result;
         }
