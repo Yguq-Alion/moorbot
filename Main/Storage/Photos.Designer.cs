@@ -61,432 +61,432 @@ namespace moorbot.Main.Storage {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__1 {
+        internal static byte[] _result__1 {
             get {
                 object obj = ResourceManager.GetObject("_result__1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__10 {
+        internal static byte[] _result__10 {
             get {
                 object obj = ResourceManager.GetObject("_result__10", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__11 {
+        internal static byte[] _result__11 {
             get {
                 object obj = ResourceManager.GetObject("_result__11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__12 {
+        internal static byte[] _result__12 {
             get {
                 object obj = ResourceManager.GetObject("_result__12", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__13 {
+        internal static byte[] _result__13 {
             get {
                 object obj = ResourceManager.GetObject("_result__13", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__14 {
+        internal static byte[] _result__14 {
             get {
                 object obj = ResourceManager.GetObject("_result__14", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__15 {
+        internal static byte[] _result__15 {
             get {
                 object obj = ResourceManager.GetObject("_result__15", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__16 {
+        internal static byte[] _result__16 {
             get {
                 object obj = ResourceManager.GetObject("_result__16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__17 {
+        internal static byte[] _result__17 {
             get {
                 object obj = ResourceManager.GetObject("_result__17", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__18 {
+        internal static byte[] _result__18 {
             get {
                 object obj = ResourceManager.GetObject("_result__18", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__19 {
+        internal static byte[] _result__19 {
             get {
                 object obj = ResourceManager.GetObject("_result__19", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__2 {
+        internal static byte[] _result__2 {
             get {
                 object obj = ResourceManager.GetObject("_result__2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__20 {
+        internal static byte[] _result__20 {
             get {
                 object obj = ResourceManager.GetObject("_result__20", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__21 {
+        internal static byte[] _result__21 {
             get {
                 object obj = ResourceManager.GetObject("_result__21", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__22 {
+        internal static byte[] _result__22 {
             get {
                 object obj = ResourceManager.GetObject("_result__22", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__23 {
+        internal static byte[] _result__23 {
             get {
                 object obj = ResourceManager.GetObject("_result__23", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__24 {
+        internal static byte[] _result__24 {
             get {
                 object obj = ResourceManager.GetObject("_result__24", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__25 {
+        internal static byte[] _result__25 {
             get {
                 object obj = ResourceManager.GetObject("_result__25", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__26 {
+        internal static byte[] _result__26 {
             get {
                 object obj = ResourceManager.GetObject("_result__26", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__27 {
+        internal static byte[] _result__27 {
             get {
                 object obj = ResourceManager.GetObject("_result__27", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__28 {
+        internal static byte[] _result__28 {
             get {
                 object obj = ResourceManager.GetObject("_result__28", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__29 {
+        internal static byte[] _result__29 {
             get {
                 object obj = ResourceManager.GetObject("_result__29", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__3 {
+        internal static byte[] _result__3 {
             get {
                 object obj = ResourceManager.GetObject("_result__3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__30 {
+        internal static byte[] _result__30 {
             get {
                 object obj = ResourceManager.GetObject("_result__30", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__31 {
+        internal static byte[] _result__31 {
             get {
                 object obj = ResourceManager.GetObject("_result__31", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__32 {
+        internal static byte[] _result__32 {
             get {
                 object obj = ResourceManager.GetObject("_result__32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__33 {
+        internal static byte[] _result__33 {
             get {
                 object obj = ResourceManager.GetObject("_result__33", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__34 {
+        internal static byte[] _result__34 {
             get {
                 object obj = ResourceManager.GetObject("_result__34", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__35 {
+        internal static byte[] _result__35 {
             get {
                 object obj = ResourceManager.GetObject("_result__35", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__36 {
+        internal static byte[] _result__36 {
             get {
                 object obj = ResourceManager.GetObject("_result__36", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__37 {
+        internal static byte[] _result__37 {
             get {
                 object obj = ResourceManager.GetObject("_result__37", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__38 {
+        internal static byte[] _result__38 {
             get {
                 object obj = ResourceManager.GetObject("_result__38", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__39 {
+        internal static byte[] _result__39 {
             get {
                 object obj = ResourceManager.GetObject("_result__39", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__4 {
+        internal static byte[] _result__4 {
             get {
                 object obj = ResourceManager.GetObject("_result__4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__40 {
+        internal static byte[] _result__40 {
             get {
                 object obj = ResourceManager.GetObject("_result__40", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__41 {
+        internal static byte[] _result__41 {
             get {
                 object obj = ResourceManager.GetObject("_result__41", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__42 {
+        internal static byte[] _result__42 {
             get {
                 object obj = ResourceManager.GetObject("_result__42", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__5 {
+        internal static byte[] _result__5 {
             get {
                 object obj = ResourceManager.GetObject("_result__5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__6 {
+        internal static byte[] _result__6 {
             get {
                 object obj = ResourceManager.GetObject("_result__6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__7 {
+        internal static byte[] _result__7 {
             get {
                 object obj = ResourceManager.GetObject("_result__7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__8 {
+        internal static byte[] _result__8 {
             get {
                 object obj = ResourceManager.GetObject("_result__8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result__9 {
+        internal static byte[] _result__9 {
             get {
                 object obj = ResourceManager.GetObject("_result__9", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _result_0 {
+        internal static byte[] _result_0 {
             get {
                 object obj = ResourceManager.GetObject("_result_0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((byte[])(obj));
             }
         }
     }

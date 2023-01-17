@@ -39,4 +39,3 @@ C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.Ass
 C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.AssemblyInfo.cs
 C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.csproj.CopyComplete
 C:\Users\Viktor\source\repos\moorbot\moorbot\obj\Debug\netcoreapp3.1\moorbot.csproj.ResolveComReference.cache
-C:\Users\Viktor\source\repos\moorbot\moorbot\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
