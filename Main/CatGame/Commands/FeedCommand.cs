@@ -25,7 +25,7 @@ namespace moorbot
                 var data = i_dataBase.database[update.Message.Chat.Id];
                 if (DateTime.Now.ToOADate() > DateTime.FromOADate(data.lastFeed).AddMinutes(data.feedDelay).ToOADate())
                 {
-                    if (data.level < 10)
+                    if (data.level < LevelManager.maxLevel)
                     {
                         data.happines = data.happines + random.Next(4, 8);
                         data.level = LevelManager.CalcLevel(data.level, data.happines);

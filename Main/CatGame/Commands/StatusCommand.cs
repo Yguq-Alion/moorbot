@@ -21,11 +21,11 @@ namespace moorbot
             var i_dataBase = (CatClientDatabase)baseHandler.t_database;
             if (i_dataBase.database.ContainsKey(update.Message.Chat.Id))
             {
-                var data = i_dataBase.database[update.Message.Chat.Id];
+                CatClientData data = i_dataBase.database[update.Message.Chat.Id];
                 DateTime feedEst =  DateTime.FromOADate(data.lastFeed).AddMinutes(data.feedDelay);
                 DateTime petEst = DateTime.FromOADate(data.lastFeed).AddMinutes(data.petDelay);
 
-                string ansv = "Ваш котик" + Environment.NewLine + $"текущее настроение {data.happines}, уровень котика {data.level}" + Environment.NewLine + $" в следующий раз сможете покормить после {feedEst} , сможете погладить после {petEst} " + Environment.NewLine + $" до следующего уровня { ( data.level * 7 + data.level * 7)- data.happines}";
+                string ansv = "Ваш котик" + Environment.NewLine + $"текущее настроение {data.happines}, уровень котика {data.level}" + Environment.NewLine + $" в следующий раз сможете покормить после {feedEst} , сможете погладить после {petEst} " + Environment.NewLine + $" до следующего уровня { (( data.level * 7 + data.level * 7)+data.level*3)- data.happines}";
             
                 botClient.SendPhotoAsync(update.Message.Chat, new InputOnlineFile(new MemoryStream(LevelManager.GetPhotoFromLevel(i_dataBase.database[update.Message.Chat.Id].level))), ansv);
             }

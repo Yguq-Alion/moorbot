@@ -18,12 +18,12 @@ namespace moorbot
         //""
         static string token = System.Environment.GetEnvironmentVariable("token");
 
-
+        public static TelegramBot moorbot;
         static void Main(string[] args)
         {
 
 
-            TelegramBot moorbot = new TelegramBot(token, new CatMessageHandler());
+             moorbot = new TelegramBot(token, new CatMessageHandler());
             moorbot.Start();
             bool run = true;
             Task.Run(HttpServer.Start);
@@ -81,7 +81,7 @@ namespace moorbot
             "  <body>" +
             "    <p>Page Views: {0}</p>" +
             "    <form method=\"post\" action=\"shutdown\">" +
-            "      <input type=\"submit\" value=\"Shutdown\" {1}>" +
+            "      <input type=\"submit\" value=\"ћ€укнуть\" {1}>" +
             "    </form>" +
             "  </body>" +
             "</html>";
@@ -112,8 +112,13 @@ namespace moorbot
                 // If `shutdown` url requested w/ POST, then shutdown the server after serving the page
                 if ((req.HttpMethod == "POST") && (req.Url.AbsolutePath == "/shutdown"))
                 {
-                    Console.WriteLine("Shutdown requested");
-                    runServer = false;
+                    Console.WriteLine("ћ€у requested");
+                    foreach (var client in ((CatClientDatabase)Program.moorbot.m_handler.t_database).database.Values)
+                    {
+                        string message = CatMessageHandler.ansvers[random.Next(0, CatMessageHandler.ansvers.Count)];
+                        Program.moorbot.m_handler.t_bot.SendTextMessageAsync(new ChatId(client.ChatId), message);
+
+                    }
                 }
 
                 // Make sure we don't increment the page views counter if `favicon.ico` is requested

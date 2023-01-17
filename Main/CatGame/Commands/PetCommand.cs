@@ -25,7 +25,7 @@ namespace moorbot
                 var data = i_dataBase.database[update.Message.Chat.Id];
                 if (DateTime.Now.ToOADate() > DateTime.FromOADate(data.lastPet).AddMinutes(data.petDelay).ToOADate())
                 {
-                    if (data.level <10)
+                    if (data.level <LevelManager.maxLevel)
                     {   data.happines = data.happines + random.Next(1,3);
                         data.level = LevelManager.CalcLevel(data.level,data.happines);
                         string ansv = "Котик поглажен!!!" + Environment.NewLine + $"текущее настроение {data.happines}, уровень котика {data.level}";

@@ -21,35 +21,7 @@ namespace moorbot
     public    ClientDatabase t_database { get; set; }
 
 
-
-        public async Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
-        {
-            // Некоторые действия
-            Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(exception));
-        }
-        public async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
-        {
-            Random random = new Random();
-            try
-            {
-                // Некоторые действия
-                //Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(update));
-
-                if (update.Type == Telegram.Bot.Types.Enums.UpdateType.Message)
-                {
-                    var message = update.Message.Text;
-                    Console.WriteLine(update.Message.From + ":    " + message);
-                    if (commands.ContainsKey(message))
-                    {
-                        commands[message].HandleCommand(this, update);
-
-                        string json = JsonConvert.SerializeObject((CatClientDatabase)t_database);
-                        System.IO.File.WriteAllText("database.json", json);
-
-                    }
-                    else
-                    {
-                        List<string> ansvers = new List<string> {
+      public static  List<string> ansvers = new List<string> {
 
                    "Мур",
                     "Мяу",
@@ -66,8 +38,44 @@ namespace moorbot
                     "мууурр?",
                     "мяу...",
                     "миу(",
-                    "мурррр))))"
+                    "мурррр))))", "мяяу", "мурмяу", "мяурр", "мяур", "мурмр", "мяумиу", "миумяу", "миумур", "мяумррр", "мурмиу", "мурмрр", "мурмиумяу", "мяяумиу",
+            "мурмяумур", "мяумррмиу", "мурмиумур", "мяумурмур", "мямрмур", "мяяумурмиу", "мяумррмур", "мурмурмиу", "мяумиумур", "мяумрмур", "мяумурмрр", "мяяумрррр", "мурмиумрр", "мурмяумр", 
+            "мяумурмр", "миумиумяу", "мяумьрмур", "мяяумрмур", "мурмурмр", "мяумиумрр", "мямумяу", "мяумрмр", "мурмяумиу", "мяуммяу", "мяумиумр", "мяумррмрр", "мямяумяу", "мяумрмиу", "мяумурмиумяу",
+            "мяумрмрмур", "мяумиумиумяу", "мурмрмрмур", "мурмурмяу", "мурмиумрмур", "мурмиумиумур", "мяумурмиумрр", "мяумиумиумур", "мярмурмяу", "мурмяумрмур", "миумурмиумяу", "мяумрмрмр",
+            "миумурмрмр", "мяумурммяу", "мяумрмиумиу", "мяяумиумрмр", "мяумурмрмр", "мяумрмиумр", "мяумурмрмиу", "мяумьрмрмр", "мурмиумрмиу", "мяумиумрмр", "мяумрмиумиумяу", "мурмиумиумрр", 
+            "мурмяумиумиу", "мяяумрмрмиу", "мяумиумурмр", "мурмяумрмиумяу", "миумиумрмур", "мяяумурмрмр", "мяумурмиумиумяу"
                     };
+
+        public async Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
+        {
+            // Некоторые действия
+            Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(exception));
+        }
+        public async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
+        {
+
+            try
+            {
+                // Некоторые действия
+                //Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(update));
+
+                if (update.Type == Telegram.Bot.Types.Enums.UpdateType.Message)
+                {
+                  
+                    string message = update.Message.Text;
+                    Random random = new Random(message.GetHashCode());
+                    Console.WriteLine(update.Message.From + ":    " + message);
+                    if (commands.ContainsKey(message))
+                    {
+                        commands[message].HandleCommand(this, update);
+
+                        string json = JsonConvert.SerializeObject((CatClientDatabase)t_database);
+                        System.IO.File.WriteAllText("database.json", json);
+
+                    }
+                    else
+                    {
+          
 
                         await botClient.SendTextMessageAsync(update.Message.Chat, ansvers[random.Next(0, ansvers.Count)]);
 

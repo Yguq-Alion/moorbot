@@ -36,7 +36,13 @@ namespace moorbot
                 cancellationToken
             );
             Console.WriteLine("запущен бот " + m_handler.t_bot.GetMeAsync().Result.FirstName);
+            Random rand = new Random();
+            foreach (var client in (m_handler.t_database).database.Values)
+            {
+                string message = CatMessageHandler.ansvers[random.Next(0, CatMessageHandler.ansvers.Count)];
+                m_handler.t_bot.SendTextMessageAsync(new ChatId(client.ChatId), message);
 
+            }
         }
 
 
